@@ -1,0 +1,18 @@
+/* Public QR verification page (read-only, no wallet) */
+.pv-page{min-height:100vh;display:grid;place-items:center;padding:24px;background:radial-gradient(800px 400px at 80% -10%,#e0e7ff,transparent 60%),#f6f8fe;font-family:inherit}
+.pv-card{width:100%;max-width:460px;background:#fff;border:1px solid #e6eaf5;border-radius:24px;padding:28px;box-shadow:0 20px 50px rgba(79,70,229,.18)}
+.pv-brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:17px;margin-bottom:22px;color:#0f1b3d}
+.pv-banner{display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:16px;margin-bottom:22px}
+.pv-banner strong{display:block;font-size:17px}.pv-banner small{font-size:14px}
+.pv-banner.ok{background:#ecfdf5;border:1px solid #a7f3d0;color:#065f46}
+.pv-banner.expired{background:#fef2f2;border:1px solid #fecaca;color:#991b1b}
+.pv-tick{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:800;font-size:18px;flex:none}
+.pv-banner.ok .pv-tick{background:#10b981}.pv-banner.expired .pv-tick{background:#ef4444}
+.pv-card h1{font-size:28px;font-weight:800;letter-spacing:-.03em;margin:0;color:#0f1b3d}
+.pv-sub{margin:6px 0 20px;color:#64739a;font-size:14.5px}
+.pv-list{margin:0}
+.pv-list>div{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-top:1px solid #eef1fa}
+.pv-list dt{color:#64739a;font-size:14.5px}
+.pv-list dd{margin:0;font-weight:600;font-size:15px;text-align:right;word-break:break-word;color:#0f1b3d}
+.pv-msg{padding:26px 6px;text-align:center;color:#64739a;font-size:16px}
+.pv-msg.bad strong{display:block;color:#b91c1c;font-size:20px;margin-bottom:8px}
